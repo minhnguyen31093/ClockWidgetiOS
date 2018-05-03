@@ -1,0 +1,6 @@
+framework module Pods_Divergence_Date {
+  umbrella header "Pods-Divergence Date-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,15 @@
+PODS:
+  - Shift (0.2.2)
+  - Shimmer (1.0.2)
+
+DEPENDENCIES:
+  - Shift
+  - Shimmer
+
+SPEC CHECKSUMS:
+  Shift: 86dc634d046fc86a879dbfdb492739672cc092be
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+
+PODFILE CHECKSUM: 6726a7d40ae87ec9baee112a14f380b00336b58b
+
+COCOAPODS: 1.4.0

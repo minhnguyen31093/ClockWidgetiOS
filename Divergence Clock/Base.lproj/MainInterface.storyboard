@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="Divergence_Clock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" simulatedAppContext="notificationCenter" insetsLayoutMarginsFromSafeArea="NO" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="128"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" distribution="fillEqually" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="R8R-TG-nSG">
+                                <rect key="frame" x="56" y="8" width="208" height="112"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_nixietube00" translatesAutoresizingMaskIntoConstraints="NO" id="p4H-to-AT6">
+                                        <rect key="frame" x="0.0" y="0.0" width="22.5" height="112"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="p4H-to-AT6" secondAttribute="height" multiplier="33:100" priority="750" id="kpr-qk-KBv"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_nixietube00" translatesAutoresizingMaskIntoConstraints="NO" id="K6K-zJ-TsL">
+                                        <rect key="frame" x="26.5" y="0.0" width="22.5" height="112"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="K6K-zJ-TsL" secondAttribute="height" multiplier="33:100" priority="750" id="4m9-Qn-r6b"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_nixietube_dot" translatesAutoresizingMaskIntoConstraints="NO" id="3OL-eW-ooy">
+                                        <rect key="frame" x="53" y="0.0" width="22.5" height="112"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="3OL-eW-ooy" secondAttribute="height" multiplier="33:100" priority="750" id="AUV-t1-Otz"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_nixietube00" translatesAutoresizingMaskIntoConstraints="NO" id="v1F-li-sdd">
+                                        <rect key="frame" x="79.5" y="0.0" width="22.5" height="112"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="v1F-li-sdd" secondAttribute="height" multiplier="33:100" priority="750" id="AhK-ce-XTA"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_nixietube00" translatesAutoresizingMaskIntoConstraints="NO" id="mIN-tL-JKW">
+                                        <rect key="frame" x="106" y="0.0" width="22.5" height="112"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="mIN-tL-JKW" secondAttribute="height" multiplier="33:100" priority="750" id="bqv-ju-BHd"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_nixietube_dot" translatesAutoresizingMaskIntoConstraints="NO" id="9RA-Vd-vkD">
+                                        <rect key="frame" x="132.5" y="0.0" width="22.5" height="112"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="9RA-Vd-vkD" secondAttribute="height" multiplier="33:100" priority="750" id="U3t-Jd-Pwt"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_nixietube00" translatesAutoresizingMaskIntoConstraints="NO" id="rMC-MD-OBU">
+                                        <rect key="frame" x="159" y="0.0" width="22.5" height="112"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="rMC-MD-OBU" secondAttribute="height" multiplier="33:100" priority="750" id="hg6-SR-XBz"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_nixietube00" translatesAutoresizingMaskIntoConstraints="NO" id="YbI-gX-OqC">
+                                        <rect key="frame" x="185.5" y="0.0" width="22.5" height="112"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="YbI-gX-OqC" secondAttribute="height" multiplier="33:100" priority="750" id="XSn-pF-Ow2"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="R8R-TG-nSG" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="56" id="1Sh-3u-vdO"/>
+                            <constraint firstItem="R8R-TG-nSG" firstAttribute="width" relation="lessThanOrEqual" secondItem="S3S-Oj-5AN" secondAttribute="width" id="9eQ-vn-u75"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" secondItem="R8R-TG-nSG" secondAttribute="height" id="A1T-l6-C0X"/>
+                            <constraint firstAttribute="trailing" secondItem="R8R-TG-nSG" secondAttribute="trailing" constant="56" id="AHV-Cc-mVy"/>
+                            <constraint firstItem="R8R-TG-nSG" firstAttribute="top" secondItem="S3S-Oj-5AN" secondAttribute="top" constant="8" id="Hrd-uG-scK"/>
+                            <constraint firstItem="R8R-TG-nSG" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="lyt-qz-u2d"/>
+                            <constraint firstAttribute="bottom" secondItem="R8R-TG-nSG" secondAttribute="bottom" constant="8" id="qNv-SM-1w9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aWf-2C-trF"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="128"/>
+                    <connections>
+                        <outlet property="imgH1" destination="p4H-to-AT6" id="7WG-zp-8Nj"/>
+                        <outlet property="imgH2" destination="K6K-zJ-TsL" id="tJp-aB-JQf"/>
+                        <outlet property="imgM1" destination="v1F-li-sdd" id="YjD-68-cZu"/>
+                        <outlet property="imgM2" destination="mIN-tL-JKW" id="dY3-98-mdN"/>
+                        <outlet property="imgS1" destination="rMC-MD-OBU" id="mwA-TP-j0O"/>
+                        <outlet property="imgS2" destination="YbI-gX-OqC" id="qiI-K8-coN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img_nixietube00" width="149" height="457"/>
+        <image name="img_nixietube_dot" width="149" height="457"/>
+    </resources>
+</document>

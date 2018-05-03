@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="KHClock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" insetsLayoutMarginsFromSafeArea="NO" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="256"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" image="frame" translatesAutoresizingMaskIntoConstraints="NO" id="lNY-sz-3Xm">
+                                <rect key="frame" x="32" y="0.0" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="256" id="Wye-Wi-7Kw"/>
+                                    <constraint firstAttribute="width" secondItem="lNY-sz-3Xm" secondAttribute="height" multiplier="1:1" id="tEx-P1-z8N"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="gEe-et-tjz">
+                                <rect key="frame" x="32" y="0.0" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gEe-et-tjz" secondAttribute="height" multiplier="1:1" id="MGZ-yv-x6M"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" image="dot" translatesAutoresizingMaskIntoConstraints="NO" id="FP8-8e-Xl0">
+                                <rect key="frame" x="32" y="0.0" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="FP8-8e-Xl0" secondAttribute="height" multiplier="1:1" id="A4r-Jk-7BO"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" image="h" translatesAutoresizingMaskIntoConstraints="NO" id="K2L-iV-7VN">
+                                <rect key="frame" x="32" y="0.0" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="K2L-iV-7VN" secondAttribute="height" multiplier="1:1" id="Rna-ll-oYi"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v4W-jf-GTh" customClass="FBShimmeringView">
+                                <rect key="frame" x="32" y="0.0" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="v4W-jf-GTh" secondAttribute="height" multiplier="1:1" id="Caw-An-LWJ"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" image="m" translatesAutoresizingMaskIntoConstraints="NO" id="izh-8x-i5b">
+                                <rect key="frame" x="32" y="0.0" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="izh-8x-i5b" secondAttribute="height" multiplier="1:1" id="asb-i3-xKj"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRk-7e-2WJ" customClass="FBShimmeringView">
+                                <rect key="frame" x="32" y="0.0" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="IRk-7e-2WJ" secondAttribute="height" multiplier="1:1" id="Ck0-fN-Qor"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" image="s" translatesAutoresizingMaskIntoConstraints="NO" id="9bl-HP-ttO">
+                                <rect key="frame" x="32" y="0.0" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9bl-HP-ttO" secondAttribute="height" multiplier="1:1" id="weC-8n-4VU"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3M-AS-elG" customClass="FBShimmeringView">
+                                <rect key="frame" x="32" y="0.0" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Q3M-AS-elG" secondAttribute="height" multiplier="1:1" id="UhG-Ya-Q5f"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" image="dot2" translatesAutoresizingMaskIntoConstraints="NO" id="xym-ia-6p8">
+                                <rect key="frame" x="32" y="0.0" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xym-ia-6p8" secondAttribute="height" multiplier="1:1" id="TTq-mh-RFB"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" image="fg" translatesAutoresizingMaskIntoConstraints="NO" id="XuJ-IC-6GT">
+                                <rect key="frame" x="32" y="0.0" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="XuJ-IC-6GT" secondAttribute="height" multiplier="1:1" id="eJP-bl-8A2"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdr-Mu-j3R" customClass="FBShimmeringView">
+                                <rect key="frame" x="32" y="0.0" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wdr-Mu-j3R" secondAttribute="height" multiplier="1:1" id="E1h-hq-Dcn"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="wdr-Mu-j3R" firstAttribute="height" secondItem="lNY-sz-3Xm" secondAttribute="height" id="1E8-bN-gqB"/>
+                            <constraint firstItem="lNY-sz-3Xm" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="2ny-wc-uZg"/>
+                            <constraint firstItem="IRk-7e-2WJ" firstAttribute="centerX" secondItem="lNY-sz-3Xm" secondAttribute="centerX" id="6Dd-XU-GXx"/>
+                            <constraint firstItem="9bl-HP-ttO" firstAttribute="centerX" secondItem="lNY-sz-3Xm" secondAttribute="centerX" id="BO2-gx-cdq"/>
+                            <constraint firstItem="v4W-jf-GTh" firstAttribute="height" secondItem="lNY-sz-3Xm" secondAttribute="height" id="E8B-tV-Yd0"/>
+                            <constraint firstItem="gEe-et-tjz" firstAttribute="centerX" secondItem="lNY-sz-3Xm" secondAttribute="centerX" id="IKv-iV-mhl"/>
+                            <constraint firstItem="IRk-7e-2WJ" firstAttribute="height" secondItem="lNY-sz-3Xm" secondAttribute="height" id="IR6-gb-O3S"/>
+                            <constraint firstItem="Q3M-AS-elG" firstAttribute="centerX" secondItem="lNY-sz-3Xm" secondAttribute="centerX" id="KFe-Lc-9gg"/>
+                            <constraint firstItem="Q3M-AS-elG" firstAttribute="height" secondItem="lNY-sz-3Xm" secondAttribute="height" id="LBO-Cb-E7N"/>
+                            <constraint firstItem="9bl-HP-ttO" firstAttribute="height" secondItem="lNY-sz-3Xm" secondAttribute="height" id="RCM-aY-fBJ"/>
+                            <constraint firstItem="gEe-et-tjz" firstAttribute="height" secondItem="lNY-sz-3Xm" secondAttribute="height" id="Ss4-0b-myx"/>
+                            <constraint firstItem="XuJ-IC-6GT" firstAttribute="height" secondItem="lNY-sz-3Xm" secondAttribute="height" id="Unj-jX-9RY"/>
+                            <constraint firstItem="izh-8x-i5b" firstAttribute="centerX" secondItem="lNY-sz-3Xm" secondAttribute="centerX" id="dNI-bZ-zq5"/>
+                            <constraint firstItem="v4W-jf-GTh" firstAttribute="centerX" secondItem="lNY-sz-3Xm" secondAttribute="centerX" id="hCN-vc-OeA"/>
+                            <constraint firstItem="FP8-8e-Xl0" firstAttribute="height" secondItem="lNY-sz-3Xm" secondAttribute="height" id="kbx-xo-jel"/>
+                            <constraint firstItem="FP8-8e-Xl0" firstAttribute="centerX" secondItem="lNY-sz-3Xm" secondAttribute="centerX" id="lPA-Pr-FtG"/>
+                            <constraint firstItem="K2L-iV-7VN" firstAttribute="centerX" secondItem="lNY-sz-3Xm" secondAttribute="centerX" id="mcm-zV-rMc"/>
+                            <constraint firstItem="wdr-Mu-j3R" firstAttribute="centerX" secondItem="lNY-sz-3Xm" secondAttribute="centerX" id="olv-Vg-5Df"/>
+                            <constraint firstItem="xym-ia-6p8" firstAttribute="centerX" secondItem="lNY-sz-3Xm" secondAttribute="centerX" id="rSy-yj-aNk"/>
+                            <constraint firstItem="izh-8x-i5b" firstAttribute="height" secondItem="lNY-sz-3Xm" secondAttribute="height" id="tBK-bb-ynG"/>
+                            <constraint firstItem="xym-ia-6p8" firstAttribute="height" secondItem="lNY-sz-3Xm" secondAttribute="height" id="tuU-Ww-R8E"/>
+                            <constraint firstItem="XuJ-IC-6GT" firstAttribute="centerX" secondItem="lNY-sz-3Xm" secondAttribute="centerX" id="tvb-SX-qbP"/>
+                            <constraint firstAttribute="height" secondItem="lNY-sz-3Xm" secondAttribute="height" id="u7O-F8-MpK"/>
+                            <constraint firstItem="K2L-iV-7VN" firstAttribute="height" secondItem="lNY-sz-3Xm" secondAttribute="height" id="wCk-B5-OEn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LZu-jo-hcX"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="256"/>
+                    <connections>
+                        <outlet property="imgBg" destination="gEe-et-tjz" id="Old-Bn-0Ip"/>
+                        <outlet property="imgDot" destination="FP8-8e-Xl0" id="MTZ-Wk-4kt"/>
+                        <outlet property="imgDot2" destination="xym-ia-6p8" id="c4s-Nd-6Sq"/>
+                        <outlet property="imgFg" destination="XuJ-IC-6GT" id="3nE-sG-cOI"/>
+                        <outlet property="imgFrame" destination="lNY-sz-3Xm" id="iA6-HI-a0E"/>
+                        <outlet property="imgH" destination="K2L-iV-7VN" id="Mnm-gg-Q60"/>
+                        <outlet property="imgM" destination="izh-8x-i5b" id="ocP-iZ-EdW"/>
+                        <outlet property="imgS" destination="9bl-HP-ttO" id="rO2-jg-c6W"/>
+                        <outlet property="svFg" destination="wdr-Mu-j3R" id="sDk-YG-h0F"/>
+                        <outlet property="svH" destination="v4W-jf-GTh" id="m2R-7c-XeC"/>
+                        <outlet property="svM" destination="IRk-7e-2WJ" id="ogK-nE-N7c"/>
+                        <outlet property="svS" destination="Q3M-AS-elG" id="3bw-6g-y4v"/>
+                        <outlet property="vParent" destination="S3S-Oj-5AN" id="p8D-1L-8Nq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="1024" height="1024"/>
+        <image name="dot" width="1024" height="1024"/>
+        <image name="dot2" width="1024" height="1024"/>
+        <image name="fg" width="1024" height="1024"/>
+        <image name="frame" width="1024" height="1024"/>
+        <image name="h" width="1024" height="1024"/>
+        <image name="m" width="1024" height="1024"/>
+        <image name="s" width="1024" height="1024"/>
+    </resources>
+</document>
